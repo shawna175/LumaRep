@@ -4,7 +4,7 @@
 **LumaRep: An Interpretable Lumbar Spinal MRI Classification via Self-Supervised Learning**
 
 ## Authors
-Shawna Akter, Mahfuz Uddin Ahmed, Moin Uddin Ahmed, Mustari Zaman, Md Mahfuzur Rahman, and Rafid Bin Taher
+**Shawna Akter**, Mahfuz Uddin Ahmed, Moin Uddin Ahmed, Mustari Zaman, Md Mahfuzur Rahman, and Rafid Bin Taher
 
 ## Status
 **Accepted at CSNT 2027**
