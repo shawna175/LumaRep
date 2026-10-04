@@ -1,0 +1,6 @@
+Place the trained BYOL-VGG16 checkpoint here.
+
+Expected filename:
+vgg16_byol_finetuned_best.pth
+
+The checkpoint is intentionally not tracked in the normal Git repository.
