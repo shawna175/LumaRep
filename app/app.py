@@ -27,7 +27,7 @@ EXPECTED_CHECKPOINT = MODEL_DIR / "vgg16_byol_finetuned_best.pth"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 st.set_page_config(
-    page_title="SpineSight MRI | Lumbar MRI Classification",
+    page_title="LumaRep MRI | Lumbar MRI Classification",
     page_icon="🩻",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -577,7 +577,7 @@ def make_paper_figure(
     ax3.set_title(f"Prediction: {predicted_class}", fontsize=16, fontweight="bold")
 
     fig.suptitle(
-        "SpineSight MRI — Proposed BYOL-VGG16 Inference",
+        "LumaRep MRI — Proposed BYOL-VGG16 Inference",
         fontsize=19,
         fontweight="bold",
         y=1.02,
@@ -594,7 +594,7 @@ def make_paper_figure(
 st.markdown(
     """
 <div class='hero'>
-  <div class='hero-title'>🩻 SpineSight MRI</div>
+  <div class='hero-title'>🩻 LumaRep MRI</div>
   <div class='hero-sub'>Lumbar spinal MRI classification and visual explanation using the proposed BYOL-VGG16 model</div>
   <div class='hero-badge'>Research Prototype · 3-Class MRI Classification · 224 × 224</div>
 </div>
